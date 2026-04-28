@@ -12,7 +12,7 @@
 ```bash
 cp .env.example .env # Использовать свои данные в .env
 docker compose up --build -d
-docker compose exec app python seed.py # Тестовые данные, подробно о ролях и разрешениях пользователей в самом файле
+docker compose exec app python seed.py # Тестовые данные
 ```
 
 
